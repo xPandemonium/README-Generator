@@ -20,13 +20,3 @@ function generateMarkdown(data) {
 export default generateMarkdown;
 
 
-// What is your GitHub username?
-// What is your email address?
-// What is your project's name?
-// Please write a short description of your project
-// What kind of license should your project have?
-//     choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
-// What command should be run to install dependencies?
-// What command should be run to run tests?
-// What does the user need to know about using the repo?
-// What does the user need to know about contributing to the repo?
