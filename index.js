@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from "inquirer";
 import fs from 'fs';
+import generateMarkdown from "./utils/generateMarkdown.js";
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -15,7 +16,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'proName',
+        name: 'title',
         message: "What is your project's name?"
     },
     {
@@ -31,7 +32,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'depends',
+        name: 'install',
         message: 'What command should be run to install dependencies?'
     },
     {
@@ -61,9 +62,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(response => {
         console.log(response)
-        const fileName = 'testREADME.md';
-        const data = JSON.stringify(response, null, "\t")
-        writeToFile(fileName, data)
+        const fileName = 'README.md';
+        writeToFile(fileName, generateMarkdown(response))
     })
 }
 
