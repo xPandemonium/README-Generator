@@ -4,6 +4,15 @@
 
   Generate a README.md file based on a couple of questions prompted though the CLI.
 
+  ## Table of Contents
+
+  - [Installation](#installation)
+  - [Tests](#tests)
+  - [Knowledge Required to use the Repo](#knowledge-required-to-use-the-repo)
+  - [Contribution](#contribution)
+  - [License](#license)
+  - [Contact](#contact)
+
   ## Installation
 
   To install all necessary files, use the following command on the CLI;
@@ -17,18 +26,20 @@
   To run tests, use the following command on the CLI;
   
   ```
-  npm error
+  npm test
   ```
 
-  ## Knowledge required to use the repo
+  ## Knowledge Required to use the Repo
 
   Standard knowledge of node js and how to interact with the CLI.
 
   ## Contribution
 
-  Follow the [Contributor Covenant](https://www.contributor-covenant.org/) guidelines.
+  Follow the [Contributor Covenant](https://www.contributor-covenant.org/) guidelines OR contact me for further questions.
 
-  ## Lisence
+  ## License
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Contact
 

@@ -48,6 +48,15 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ## Table of Contents
+
+  - [Installation](#installation)
+  - [Tests](#tests)
+  - [Knowledge Required to use the Repo](#knowledge-required-to-use-the-repo)
+  - [Contribution](#contribution)
+  - [License](#license)
+  - [Contact](#contact)
+
   ## Installation
 
   To install all necessary files, use the following command on the CLI;
@@ -64,7 +73,7 @@ function generateMarkdown(data) {
   ${data.runTest}
   \`\`\`
 
-  ## Knowledge required to use the repo
+  ## Knowledge Required to use the Repo
 
   ${data.infoRepo}
 
@@ -72,7 +81,7 @@ function generateMarkdown(data) {
 
   ${data.infoContribute}
 
-  ## Lisence
+  ## License
 
   ${renderLicenseSection(data.license)}
 
