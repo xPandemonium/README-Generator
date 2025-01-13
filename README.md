@@ -9,6 +9,7 @@
   - [Installation](#installation)
   - [Tests](#tests)
   - [Knowledge Required to use the Repo](#knowledge-required-to-use-the-repo)
+  - [Demo](#demo)
   - [Contribution](#contribution)
   - [License](#license)
   - [Contact](#contact)
@@ -28,6 +29,9 @@
   ```
   npm test
   ```
+  ## Demo
+
+  Watch this [Demo Video](./Demo/GeneratorDemo.mp4) on how to use the generator.
 
   ## Knowledge Required to use the Repo
 
